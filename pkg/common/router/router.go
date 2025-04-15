@@ -20,5 +20,6 @@ func SetupRouter(handler *handler.Handler) *echo.Echo {
 	e.GET("/users/:id", handler.GetUser)
 	// e.PUT("/users/:id", api.UpdateUser)
 	// e.DELETE("/users/:id", api.DeleteUser)
+
 	return e
 }

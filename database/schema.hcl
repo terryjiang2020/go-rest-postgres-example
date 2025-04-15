@@ -8,6 +8,15 @@ table "users" {
     null = false
     type = text
   }
+  column "password" {
+    null = true
+    type = text
+  }
+  column "is_admin" {
+    null = false
+    type = bool
+    default = false
+  }
   primary_key {
     columns = [column.id]
   }
