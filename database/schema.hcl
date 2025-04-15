@@ -12,6 +12,7 @@ table "users" {
     columns = [column.id]
   }
 }
+
 schema "public" {
   comment = "Default public gomin schema"
 }
